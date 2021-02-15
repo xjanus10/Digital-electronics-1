@@ -26,7 +26,7 @@ end architecture dataflow;
 
 ![Hodnoty funkce f(c,b,a) ](images/f1.PNG)
 
-### Fnand(c,b,a)
+### F_nand(c,b,a)
 
 | **c** | **b** |**a** | **f_nand(c,b,a)** |
 | :-: | :-: | :-: | :-: |
@@ -41,7 +41,7 @@ end architecture dataflow;
 
 ![Hodnoty funkce f(c,b,a) ](images/f2.PNG)
 
-### Fnor(c,b,a)
+### F_nor(c,b,a)
 
 | **c** | **b** |**a** | **f_nor(c,b,a)** |
 | :-: | :-: | :-: | :-: |
