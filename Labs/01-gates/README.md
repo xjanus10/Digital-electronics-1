@@ -1,17 +1,17 @@
-#Lab 1
+# Lab 1
 
-###De Morgan's laws simulation
+### De Morgan's laws simulation
 
 ```bash
 architecture dataflow of gates is
 begin
-		--f_o <= ((not b_i) and a_i) or ((not c_i) and (not b_i));
+	f_o <= ((not b_i) and a_i) or ((not c_i) and (not b_i));
         fnand_o <= (not(((not((not b_i) and a_i))) and ((not(( not c_i) and (not b_i))))));
-        --fnor_o <= ((not (b_i or (not a_i))) or (not ( c_i or b_i)));
+        fnor_o <= ((not (b_i or (not a_i))) or (not ( c_i or b_i)));
 end architecture dataflow;
 ```
 
-###F(c,b,a)
+### F(c,b,a)
 
 | **c** | **b** |**a** | **f(c,b,a)** |
 | :-: | :-: | :-: | :-: |
@@ -26,7 +26,7 @@ end architecture dataflow;
 
 ![Hodnoty funkce f(c,b,a) ](images/f1.PNG)
 
-###Fnand(c,b,a)
+### Fnand(c,b,a)
 
 | **c** | **b** |**a** | **f(c,b,a)** |
 | :-: | :-: | :-: | :-: |
@@ -41,7 +41,7 @@ end architecture dataflow;
 
 ![Hodnoty funkce f(c,b,a) ](images/f2.PNG)
 
-###Fnor(c,b,a)
+### Fnor(c,b,a)
 
 | **c** | **b** |**a** | **f(c,b,a)** |
 | :-: | :-: | :-: | :-: |
@@ -56,5 +56,5 @@ end architecture dataflow;
 
 ![Hodnoty funkce f(c,b,a) ](images/f3.PNG)
 
-###odkaz na EDA Playground:
+### odkaz na EDA Playground:
 https://www.edaplayground.com/x/FJqJ
