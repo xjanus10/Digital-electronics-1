@@ -3,7 +3,12 @@
 ###De Morgan's laws simulation
 
 ```bash
-kód here:
+architecture dataflow of gates is
+begin
+		--f_o <= ((not b_i) and a_i) or ((not c_i) and (not b_i));
+        fnand_o <= (not(((not((not b_i) and a_i))) and ((not(( not c_i) and (not b_i))))));
+        --fnor_o <= ((not (b_i or (not a_i))) or (not ( c_i or b_i)));
+end architecture dataflow;
 ```
 
 ###F(c,b,a)
@@ -34,7 +39,7 @@ kód here:
 | 1 | 1 | 0 |  |
 | 1 | 1 | 1 |  |
 
-![Hodnoty funkce f(c,b,a) ](images/f2.png)
+![Hodnoty funkce f(c,b,a) ](images/f2.PNG)
 
 ###Fnor(c,b,a)
 
@@ -49,7 +54,7 @@ kód here:
 | 1 | 1 | 0 |  |
 | 1 | 1 | 1 |  |
 
-![Hodnoty funkce f(c,b,a) ](images/f3.png)
+![Hodnoty funkce f(c,b,a) ](images/f3.PNG)
 
-###EDA Playground
+###odkaz na EDA Playground:
 https://www.edaplayground.com/x/FJqJ
