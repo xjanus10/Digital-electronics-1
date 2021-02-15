@@ -28,7 +28,7 @@ end architecture dataflow;
 
 ### Fnand(c,b,a)
 
-| **c** | **b** |**a** | **f(c,b,a)** |
+| **c** | **b** |**a** | **f_nand(c,b,a)** |
 | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 |  |
 | 0 | 0 | 1 |  |
@@ -43,7 +43,7 @@ end architecture dataflow;
 
 ### Fnor(c,b,a)
 
-| **c** | **b** |**a** | **f(c,b,a)** |
+| **c** | **b** |**a** | **f_nor(c,b,a)** |
 | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 |  |
 | 0 | 0 | 1 |  |
