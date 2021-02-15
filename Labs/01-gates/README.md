@@ -19,7 +19,7 @@ kód here:
 | 1 | 1 | 0 |  |
 | 1 | 1 | 1 |  |
 
-![Hodnoty funkce f(c,b,a) ](images/f1.png)
+![Hodnoty funkce f(c,b,a) ](images/f1.PNG)
 
 ###Fnand(c,b,a)
 
