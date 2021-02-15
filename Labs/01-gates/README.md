@@ -1,6 +1,6 @@
 # Lab 1
 
-### De Morgan's laws simulation
+## 1. De Morgan's laws simulation
 
 ```bash
 architecture dataflow of gates is
@@ -58,3 +58,7 @@ end architecture dataflow;
 
 ### odkaz na EDA Playground:
 https://www.edaplayground.com/x/FJqJ
+
+## 2. Distributivní zákony
+
+### Něco
