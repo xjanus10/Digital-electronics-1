@@ -76,15 +76,15 @@ end architecture dataflow;
 ```
 ### Porovnání funkcí f1, f2
 
-f1 = (x*y)+(x*z)   
-f2 = x*(y+z)
+f1 = (x * y)+(x * z)   
+f2 = x * (y+z)
 
 ![Hodnoty funkce f(c,b,a) ](images/f4.PNG)
 
 ### Porovnání funkcí f3, f4
 
-f3 = (x+y)*(x+z)  
-f4 = x+(y*z)
+f3 = (x+y) * (x+z)  
+f4 = x+(y * z)
 
 ![Hodnoty funkce f(c,b,a) ](images/f5.PNG)
 
