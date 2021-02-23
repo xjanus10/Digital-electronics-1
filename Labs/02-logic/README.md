@@ -1,7 +1,7 @@
 # Lab 2: Combinational logic
 
 
-## Preparation task
+## Part 1: Preparation task
 
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -22,5 +22,7 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
-![Empty Karnaugh map 4x4](images/kmap_greater.png) &nbsp;  &nbsp;  &nbsp;  &nbsp; 
-![Empty Karnaugh map 4x4](images/kmap_lesser.png)
+## Part 2: Logic function minimization
+
+![B > A](images/kmap_greater.png) &nbsp;  &nbsp;  &nbsp;  &nbsp; 
+![B < A](images/kmap_lesser.png)
