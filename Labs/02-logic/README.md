@@ -27,8 +27,13 @@
 ![Karnaugh map for "equals" function](images/kmap_equals.png)
 ### 2) B>A
 ![B > A](images/kmap_greater.png)
+
+SOP = A1'A0' + A1'B0 + A0'B1 + B1B0
+
 ### 3) B<A
 ![B < A](images/kmap_lesser.png)
+
+POS = (A1' + B1) (A0' + B0)
 
 ## Part 3: Assertion statements in VHDL testbench
 
