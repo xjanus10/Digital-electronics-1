@@ -24,6 +24,6 @@
 
 ## Part 2: Logic function minimization
 
-### B>A                         B<A
+### B>A, B<A
 ![B > A](images/kmap_greater.png) &nbsp;  &nbsp;  &nbsp;  &nbsp;
 ![B < A](images/kmap_lesser.png)
