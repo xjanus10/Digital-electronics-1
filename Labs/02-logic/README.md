@@ -24,5 +24,5 @@
 
 ## Part 2: Logic function minimization
 
-![B > A](images/kmap_greater.png) &nbsp;  &nbsp;  &nbsp;  &nbsp; 
-![B < A](images/kmap_lesser.png)
+* [B > A](images/kmap_greater.png) &nbsp;  &nbsp;  &nbsp;  &nbsp; 
+! [B < A](images/kmap_lesser.png)
