@@ -24,7 +24,6 @@
 
 ## Part 2: Logic function minimization
 
-### B>A, B<A
 ![Karnaugh map for "equals" function](images/kmap_equals.png)
-![B > A](images/kmap_greater.png) &nbsp;  &nbsp;  &nbsp;  &nbsp;
+![B > A](images/kmap_greater.png)
 ![B < A](images/kmap_lesser.png)
