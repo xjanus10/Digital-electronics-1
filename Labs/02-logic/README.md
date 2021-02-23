@@ -21,3 +21,6 @@
 | 13 | 1 1 | 0 1 | 1 | 0 | 0 |
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
+
+![Empty Karnaugh map 4x4](images/kmap_greater.png) &nbsp;  &nbsp;  &nbsp;  &nbsp; 
+![Empty Karnaugh map 4x4](images/kmap_lesser.png)
