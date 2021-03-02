@@ -33,7 +33,6 @@ begin
               b_i when (sel_i = "01" ) else
               c_i when (sel_i = "10" ) else
               d_i;
-
 end architecture Behavioral;
 ```
 
