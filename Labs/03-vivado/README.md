@@ -1,4 +1,4 @@
-# Lab 03-vivado
+# Lab 3: Vivado
 ### [Github Link](https://github.com/xjanus10/Digital-electronics-1/blob/main/Labs/03-vivado/README.md)
 
 ## 1. Switches & LED table
