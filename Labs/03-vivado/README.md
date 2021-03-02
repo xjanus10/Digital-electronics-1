@@ -1,4 +1,4 @@
-### [Link to my github](https://github.com/prostmich/Digital-electronics-1/tree/main/Labs/03-vivado)
+### [Github Link](https://github.com/xjanus10/Digital-electronics-1/blob/main/Labs/03-vivado/README.md)
 # Lab 03-vivado
 ## 1. Table SW+LED
 | **SW** | **SW_PORT** | **LED** | **LED_PORT** |
