@@ -1,7 +1,8 @@
-### [Github Link](https://github.com/xjanus10/Digital-electronics-1/blob/main/Labs/03-vivado/README.md)
 # Lab 03-vivado
-## 1. Table SW+LED
-| **SW** | **SW_PORT** | **LED** | **LED_PORT** |
+### [Github Link](https://github.com/xjanus10/Digital-electronics-1/blob/main/Labs/03-vivado/README.md)
+
+## 1. Switches & LED table
+| **Switch** | **Switch port** | **LED** | **LED port** |
 | :-: | :-: | :-: | :-: |		     
 | SW0 | J15 | LED0 | H17 |		     
 | SW1 | L16 | LED1 | K15 |		     
