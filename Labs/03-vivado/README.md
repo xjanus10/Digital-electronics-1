@@ -1,7 +1,7 @@
 # Lab 3: Vivado
 ### [Github Link](https://github.com/xjanus10/Digital-electronics-1/blob/main/Labs/03-vivado/README.md)
 
-## 1. Switches & LED table
+## 1) Switches & LED table
 | **Switch** | **Switch port** | **LED** | **LED port** |
 | :-: | :-: | :-: | :-: |		     
 | SW0 | J15 | LED0 | H17 |		     
@@ -21,7 +21,7 @@
 | SW14 | U11 | LED14 | V12 |
 | SW15 | V10 | LED15 | V11 |
 
-## 2. Two-bit wide 4-to-1 multiplexer
+## 2) Two-bit wide 4-to-1 multiplexer
 
 ### VHDL architecture
 mux_2bit_4to1.vhd
@@ -58,3 +58,13 @@ p_stimulus : process
 ```
 ### Waveforms
 ![screen](images/waves.png)
+
+## 3) Vivado tutorial
+, , , 
+![project creation](images/.png)
+![adding source file](images/.png)
+![adding testbench file](images/.png)
+![running simulation](images/.png)
+![](images/.png)
+![](images/.png)
+![](images/.png)
