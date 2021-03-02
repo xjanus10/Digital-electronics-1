@@ -61,7 +61,7 @@ p_stimulus : process
 
 ## 3) Vivado tutorial
 
-###project creation
+### project creation
 Name and directory selection
 ![project creation](images/1.png)
 Choosing the type of project
@@ -72,10 +72,10 @@ Adding design sources
 Press Finish to create project
 ![adding source file](images/5.png)
 
-###adding source file
+### adding source file
 ![adding source file](images/6.png)
 
-###running simulation
+### running simulation
 ![running simulation](images/7.png)
 
 
