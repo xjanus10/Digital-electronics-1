@@ -55,3 +55,5 @@ p_stimulus : process
         wait;
     end process p_stimulus;
 ```
+### Waveforms
+![screen](images/waves.png)
