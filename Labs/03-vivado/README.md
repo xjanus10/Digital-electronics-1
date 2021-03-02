@@ -24,6 +24,8 @@
 ## 2. Two-bit wide 4-to-1 multiplexer
 
 ### VHDL architecture
+mux_2bit_4to1.vhd
+
 ```vhdl
 architecture Behavioral of mux_2bit_4to1 is
 begin
@@ -36,10 +38,11 @@ end architecture Behavioral;
 ```
 
 ### VHDL stimulus process
+tb_mux_2bit_4to1.vhd
+
 ```vhdl
 p_stimulus : process
     begin
-
         s_a <= "00"; s_b <= "01"; s_c <= "10"; s_d <= "11";
         s_sel <= "00"; wait for 100 ns;
         
@@ -50,8 +53,7 @@ p_stimulus : process
         s_sel <= "01"; wait for 100 ns;
         
         s_a <= "00"; s_b <= "01"; s_c <= "10"; s_d <= "11";
-        s_sel <= "11"; wait for 100 ns;
-        
+        s_sel <= "11"; wait for 100 ns;        
         wait;
     end process p_stimulus;
 ```
