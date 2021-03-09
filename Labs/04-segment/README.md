@@ -129,9 +129,9 @@ hex2seg : entity work.hex_7seg
         );
 ```
 
-## 3. LED(7:4) indicators
+## 3) LED indicators
 
-### Truth table for LEDs(7:4)
+### Truth table for LEDs
 | **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0000 | 1 | 0 | 0 | 0 |
@@ -151,7 +151,7 @@ hex2seg : entity work.hex_7seg
 | E | 1110 | 0 | 1 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 0 |
 
-### VHDL code for LEDs(7:4)
+### VHDL code for LEDs
 ```vhdl
 LED(3 downto 0) <= SW;
 LED (4) <=  '1' when (SW = "0000") else '0'; 
