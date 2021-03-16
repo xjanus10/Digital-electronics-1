@@ -120,6 +120,6 @@ AN <= ```b"1111_1110"```; -- add AN
 ```
 ### Image of the top layer including both counters
 #### 4-bit bidirectional counter diagram
-![screen](images/2.png)
+![screen](images/2.jpg)
 #### 16-bit bidirectional counter diagram
-![screen](images/3.png)
+![screen](images/3.jpg)
