@@ -1,10 +1,10 @@
 # Lab 5: Counter
-### Github link:
+### Github link: https://github.com/xjanus10/Digital-electronics-1/tree/main/Labs/05-counter
 
 ## 1. Preparation Tasks
 ### Table with connection of push buttons on Nexys A7 board
 
-| **Button** | **Pin** | **Voltage when disabled** |  **Voltage when enabled** |
+| **Button** | **Pin** | **Voltage disabled** |  **Voltage enabled** |
    | :-: | :-: | :-: | :-: |
    | BTNL | P17 | 0 V | 3,3 V | 
    | BTNR | M17 | 0 V | 3,3 V | 
@@ -27,7 +27,7 @@
 
 ## 2. Bidirectional counter
 
-### Listing of VHDL code of the process ```p_cnt_up_down```
+### p_cnt_up_down
 ```vhdl
 p_cnt_up_down : process(clk)
 begin
@@ -45,7 +45,7 @@ begin
 end process p_cnt_up_down;
 ```
 
-### Listing of VHDL reset and stimulus processes from testbench file ```tb_cnt_up_down.vhd```
+### tb_cnt_up_down.vhd
 ```vhdl
 p_reset_gen : process
 begin
@@ -71,12 +71,12 @@ begin
 end process p_stimulus;
 ```
 
-### Screenshot with simulated time waveforms
-![clock_waveforms](./src/clock_waveforms.png)
+### simulated time waveforms
+![screen](images/1.png)
 
 ## 3. Top level
 
-### Listing of VHDL code from source file ```top.vhd``` with all instantiations for the 4-bit bidirectional counter
+### top.vhd (with 4-bit bidirectional counter)
 ```vhdl
 clk_en0 : entity work.clock_enable
     generic map(
@@ -120,6 +120,6 @@ AN <= ```b"1111_1110"```; -- add AN
 ```
 ### Image of the top layer including both counters
 #### 4-bit bidirectional counter diagram
-![4_bit](./src/4-bit.jpg)
+![screen](images/2.png)
 #### 16-bit bidirectional counter diagram
-![4_bit](./src/16-bit.jpg)
+![screen](images/3.png)
