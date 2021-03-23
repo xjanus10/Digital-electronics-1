@@ -5,7 +5,7 @@
 
 ### Timing diagram figure
 
-![1_diagram](./src/1_diagram.png)
+![screen](images/1.png)
 
 ## 2. Display driver
 
@@ -141,7 +141,7 @@ end architecture testbench;
 ```
 
 ### Screenshot with simulated time waveforms
-![2_waveform](./src/2_waveform.png)
+![screen](images/2.png)
 
 ### Listing of VHDL architecture of the top layer
 ```VHDL
@@ -193,4 +193,4 @@ end architecture Behavioral;
 ## 3. Eight-digit driver
 ### Image of the driver schematic
 
-![3_schematic](./src/3_schematic.jpg)
+![screen](images/3.jpg)
