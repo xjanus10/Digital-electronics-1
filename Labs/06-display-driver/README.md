@@ -9,7 +9,7 @@
 
 ## 2. Display driver
 
-### Listing of VHDL code of the process ```p_mux```
+### ```p_mux```
 ```VHDL
 p_mux : process(s_cnt, data0_i, data1_i, data2_i, data3_i, dp_i)
 begin
@@ -38,7 +38,7 @@ begin
 end process p_mux;
 ```
 
-### Listing of VHDL testbench file ```tb_driver_7seg_4digit```
+### ```tb_driver_7seg_4digit```
 ```VHDL
 -- Entity declaration for testbench
 entity tb_driver_7seg_4digits is
@@ -140,10 +140,10 @@ architecture testbench of tb_driver_7seg_4digits is
 end architecture testbench;
 ```
 
-### Screenshot with simulated time waveforms
+### Simulated time waveforms
 ![screen](images/2.png)
 
-### Listing of VHDL architecture of the top layer
+### Top layer VHDL architecture
 ```VHDL
 architecture Behavioral of top is
 begin
@@ -191,6 +191,6 @@ end architecture Behavioral;
 ```
 
 ## 3. Eight-digit driver
-### Image of the driver schematic
+### Driver schematic
 
 ![screen](images/3.jpg)
