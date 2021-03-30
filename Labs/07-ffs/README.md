@@ -1,12 +1,12 @@
-### [Link to Github](https://github.com/prostmich/Digital-electronics-1/tree/main/Labs/07-ffs)
+# Lab 6: FFS
 
-# Lab 07
+### Github link: https://github.com/xjanus10/Digital-electronics-1/edit/main/Labs/07-ffs
 
 ## 1. Preparation Tasks
 
 ### Characteristic equations
 
-![eq](./src/eq.png)
+![pic](images/equation.png)
 
 ### d_ff table
 
