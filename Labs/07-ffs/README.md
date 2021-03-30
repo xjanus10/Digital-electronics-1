@@ -211,10 +211,6 @@ t_ff_rst : process(clk)
     end process t_ff_rst;
 
 ```
-### Listing of VHDL clock, reset and stimulus processes from the testbench files
-```vhdl
-TODO: dopsat
-```
 
 ### Simulated waveforms
 **d_arst waveform**
@@ -227,7 +223,7 @@ TODO: dopsat
 ![pic](images/jk_rst_wave.png)
 
 **t_rst waveform**
-![t_rst_waveform](https://i.imgur.com/3qZlUrM.png)
+![pic](images/t_rst_waveform.png) 
 
 ## 4. Shift register 
 ### Driver schematic
