@@ -39,9 +39,9 @@
 | 1 | 0 | 1 | Inverted |
 | 1 | 1 | 0 | Inverted |
 
-## 2. D latch
+## 2. D-Latch
 
-### VHDL code listing of the process ```p_d_latch```
+```p_d_latch```
 ```vhdl
 p_d_latch : process(d, arst, en)
     begin
@@ -56,7 +56,7 @@ p_d_latch : process(d, arst, en)
         end if;
 end process p_d_latch;
 ```
-### Listing of VHDL reset and stimulus processes from the testbench ```tb_d_latch.vhd```
+### ```tb_d_latch.vhd```
 ```vhdl
 p_reset_gen : process
     begin
@@ -136,13 +136,13 @@ p_stimulus : process
     end process p_stimulus;
 ```
 
-### Screenshot with simulated time waveforms
-![latch_waveform](./src/latch_waveform.png)
+### simulated waveforms
+![pic](images/latch_wave.png)
 
 
 ## 3. Flip-flops
 
-### VHDL code listing of the processes ```p_d_ff_arst```, ```p_d_ff_rst```, ```p_jk_ff_rst```, ```p_t_ff_rst```
+### ```p_d_ff_arst```, ```p_d_ff_rst```, ```p_jk_ff_rst```, ```p_t_ff_rst```
 ```vhdl
 p_d_ff_arst : process(clk)
     begin        
@@ -216,20 +216,20 @@ t_ff_rst : process(clk)
 TODO: dopsat
 ```
 
-### Screenshot with simulated time waveforms
+### Simulated waveforms
 **d_arst waveform**
-![d_arst_waveform](./src/d_arst_waveform.png)
+![pic](images/d_arst_wave.png)
 
 **d_rst waveform**
-![d_rst_waveform](./src/d_rst_waveform.png)
+![pic](images/d_rst_wave.png)
 
 **jk_rst waveform**
-![jk_rst_waveform](./src/jk_rst_waveform.png)
+![pic](images/jk_rst_wave.png)
 
 **t_rst waveform**
 ![t_rst_waveform](https://i.imgur.com/3qZlUrM.png)
 
 ## 4. Shift register 
-### Image of the driver schematic
+### Driver schematic
 
-![schematic](./src/schematic.jpg)
+![pic](images/scheme.jpg)
