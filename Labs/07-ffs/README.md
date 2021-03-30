@@ -1,8 +1,8 @@
-# Lab 6: FFS
+# Lab 7: FFS
 
 ### Github link: https://github.com/xjanus10/Digital-electronics-1/edit/main/Labs/07-ffs
 
-## 1. Preparation Tasks
+## 1) Preparation Tasks
 
 ### Characteristic equations
 
@@ -39,7 +39,7 @@
 | 1 | 0 | 1 | Inverted |
 | 1 | 1 | 0 | Inverted |
 
-## 2. D-Latch
+## 2) D-Latch
 
 ```p_d_latch```
 ```vhdl
@@ -140,7 +140,7 @@ p_stimulus : process
 ![pic](images/latch_wave.png)
 
 
-## 3. Flip-flops
+## 3) Flip-flops
 
 ### ```p_d_ff_arst```, ```p_d_ff_rst```, ```p_jk_ff_rst```, ```p_t_ff_rst```
 ```vhdl
@@ -213,19 +213,19 @@ t_ff_rst : process(clk)
 ```
 
 ### Simulated waveforms
-**d_arst waveform**
+#### d_arst waveform
 ![pic](images/d_arst_wave.png)
 
-**d_rst waveform**
+#### d_rst waveform
 ![pic](images/d_rst_wave.png)
 
-**jk_rst waveform**
+#### jk_rst waveform
 ![pic](images/jk_rst_wave.png)
 
-**t_rst waveform**
+#### t_rst waveform
 ![pic](images/t_rst_waveform.png) 
 
-## 4. Shift register 
+## 4) Shift register 
 ### Driver schematic
 
 ![pic](images/scheme.jpg)
