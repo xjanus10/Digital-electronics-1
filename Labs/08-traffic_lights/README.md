@@ -1,8 +1,8 @@
-### [Link to Github](https://github.com/prostmich/Digital-electronics-1/tree/main/Labs/08-traffic_ligths)
+# Lab 9: Traffic Lights
 
-# Lab 08
+### Github link: https://github.com/xjanus10/Digital-electronics-1/edit/main/Labs/08-traffic_lights
 
-## 1. Preparation Tasks
+## 1) Preparation Tasks
 
 ### Completed state table
 | **Input P** | 0 | 0 | 1 | 1 | 0 | 1 | 0 | 1 | 1 | 1 | 1 | 0 | 0 | 1 | 1 | 1 |
@@ -17,13 +17,13 @@ __Completed table with color settings__
 | LD16 | N15, M16, R12 | `1,0,0` | `1,1,0` | `0,1,0` |
 | LD17 | N16, R11, G14 | `1,0,0` | `1,1,0` | `0,1,0` |
 
-## 2. Traffic light controller
+## 2) Traffic light controller
 
 ### State diagram
 
 ![diagram_1](./src/diagram_1.jpg)
 
-### Listing of VHDL code of sequential process `p_traffic_fsm`
+###  `p_traffic_fsm`
 ```vhdl
 p_traffic_fsm : process(clk)
 begin
@@ -90,7 +90,7 @@ begin
 end process p_traffic_fsm;
 ```
 
-### Listing of VHDL code of combinatorial process `p_output_fsm`
+### `p_output_fsm`
 ```vhdl
 p_output_fsm : process(s_state)
 begin
@@ -128,7 +128,7 @@ end process p_output_fsm;
 ### Screenshot(s) of the simulation, from which it is clear that controller works correctly
 ![waveforms1](./src/waveforms1.png)
 
-## 3. Smart controller
+## 3) Smart controller
 
 ### State table
 
@@ -143,7 +143,7 @@ end process p_output_fsm;
 
 ![diagram_2](./src/diagram_2.jpg)
 
-### Listing of VHDL code of sequential process `p_smart_traffic_fsm`
+###  `p_smart_traffic_fsm`
 ```vhdl
 p_smart_traffic_fsm : process(clk)
 begin
