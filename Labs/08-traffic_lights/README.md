@@ -21,7 +21,7 @@ __Completed table with color settings__
 
 ### State diagram
 
-![diagram_1](./src/diagram_1.jpg)
+![SCREENSHOT](./src/1.jpg)
 
 ###  `p_traffic_fsm`
 ```vhdl
@@ -125,8 +125,8 @@ begin
     end case;
 end process p_output_fsm;
 ```
-### Screenshot(s) of the simulation, from which it is clear that controller works correctly
-![waveforms1](./src/waveforms1.png)
+### Screenshot of the simulation
+![SCREENSHOT](./src/wave.png)
 
 ## 3) Smart controller
 
@@ -141,7 +141,7 @@ end process p_output_fsm;
 
 ### State diagram
 
-![diagram_2](./src/diagram_2.jpg)
+![SCREENSHOT](./src/2.jpg)
 
 ###  `p_smart_traffic_fsm`
 ```vhdl
